@@ -16,11 +16,12 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <hccoren/PublicHeader.h>
 
-#ifndef hccoren_h
-#define hccoren__h
+#ifndef hccoren_h_1
+#define hccoren__h_1
 #import <HCBase.h>
 //#import <hccoren/database.h>
 //#import <hccoren/cmd.h>
+
 #import <base.h>
 //#import <hccoren/images.h>
 #import <CommonUtil.h>
