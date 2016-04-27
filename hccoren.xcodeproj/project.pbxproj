@@ -22,17 +22,18 @@
 
 /* Begin PBXBuildFile section */
 		114DE8BD1CD0926C004BE152 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 114DE8BC1CD0926C004BE152 /* PrefixHeader.pch */; };
-		114DE8C21CD0985A004BE152 /* HCEPropetyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 114DE8BE1CD0985A004BE152 /* HCEPropetyType.h */; };
+		114DE8C21CD0985A004BE152 /* HCEPropetyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 114DE8BE1CD0985A004BE152 /* HCEPropetyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		114DE8C31CD0985A004BE152 /* HCEPropetyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DE8BF1CD0985A004BE152 /* HCEPropetyType.m */; };
-		114DE8C81CD098A3004BE152 /* CommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 114DE8C61CD098A3004BE152 /* CommonUtil.h */; };
+		114DE8C81CD098A3004BE152 /* CommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 114DE8C61CD098A3004BE152 /* CommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		114DE8C91CD098A3004BE152 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DE8C71CD098A3004BE152 /* CommonUtil.m */; };
 		114DE8CA1CD098A3004BE152 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 114DE8C71CD098A3004BE152 /* CommonUtil.m */; };
+		114DE8CC1CD0BB2B004BE152 /* testcocoa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 114DE8CB1CD0BB2B004BE152 /* testcocoa.podspec */; };
+		114DE8CD1CD0BB2B004BE152 /* testcocoa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 114DE8CB1CD0BB2B004BE152 /* testcocoa.podspec */; };
 		11ED3DFB1CC61E1900561E33 /* hccoren.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ED3DFA1CC61E1900561E33 /* hccoren.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11ED3E021CC61E1900561E33 /* hccoren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED3DF71CC61E1900561E33 /* hccoren.framework */; };
 		11ED3E071CC61E1900561E33 /* hccorenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED3E061CC61E1900561E33 /* hccorenTests.m */; };
 		11ED3F1E1CC61E7E00561E33 /* HCBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ED3E131CC61E7E00561E33 /* HCBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11ED3F281CC61E7E00561E33 /* PublicMControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ED3E1D1CC61E7E00561E33 /* PublicMControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11ED3F291CC61E7E00561E33 /* PublicText.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ED3E1E1CC61E7E00561E33 /* PublicText.h */; };
 		11ED40131CC6205900561E33 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED40121CC6205900561E33 /* libsqlite3.0.tbd */; };
 		11ED40151CC6668100561E33 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED40141CC6668100561E33 /* libicucore.tbd */; };
 		11ED401A1CC6686100561E33 /* images.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ED40191CC6675F00561E33 /* images.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +64,7 @@
 		114DE8BF1CD0985A004BE152 /* HCEPropetyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCEPropetyType.m; sourceTree = "<group>"; };
 		114DE8C61CD098A3004BE152 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 		114DE8C71CD098A3004BE152 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		114DE8CB1CD0BB2B004BE152 /* testcocoa.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testcocoa.podspec; sourceTree = "<group>"; };
 		11ED3DF71CC61E1900561E33 /* hccoren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hccoren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ED3DFA1CC61E1900561E33 /* hccoren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hccoren.h; sourceTree = "<group>"; };
 		11ED3DFC1CC61E1900561E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +73,6 @@
 		11ED3E081CC61E1900561E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11ED3E131CC61E7E00561E33 /* HCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBase.h; sourceTree = "<group>"; };
 		11ED3E1D1CC61E7E00561E33 /* PublicMControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMControls.h; sourceTree = "<group>"; };
-		11ED3E1E1CC61E7E00561E33 /* PublicText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicText.h; sourceTree = "<group>"; };
 		11ED40121CC6205900561E33 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		11ED40141CC6668100561E33 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		11ED40191CC6675F00561E33 /* images.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = images.h; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 		11ED3DED1CC61E1900561E33 = {
 			isa = PBXGroup;
 			children = (
+				114DE8CB1CD0BB2B004BE152 /* testcocoa.podspec */,
 				114DE8BC1CD0926C004BE152 /* PrefixHeader.pch */,
 				114DE8BB1CCFCD72004BE152 /* framework.xcconfig */,
 				114DE8BA1CCFCBFD004BE152 /* hccoreshare.xcconfig */,
@@ -160,7 +162,6 @@
 				114DE8BF1CD0985A004BE152 /* HCEPropetyType.m */,
 				11ED3E131CC61E7E00561E33 /* HCBase.h */,
 				11ED3E1D1CC61E7E00561E33 /* PublicMControls.h */,
-				11ED3E1E1CC61E7E00561E33 /* PublicText.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -187,11 +188,10 @@
 				11ED401E1CC68C4F00561E33 /* database.h in Headers */,
 				11ED401A1CC6686100561E33 /* images.h in Headers */,
 				11ED3F281CC61E7E00561E33 /* PublicMControls.h in Headers */,
+				114DE8C81CD098A3004BE152 /* CommonUtil.h in Headers */,
+				114DE8C21CD0985A004BE152 /* HCEPropetyType.h in Headers */,
 				11ED3F1E1CC61E7E00561E33 /* HCBase.h in Headers */,
 				11ED3DFB1CC61E1900561E33 /* hccoren.h in Headers */,
-				114DE8C21CD0985A004BE152 /* HCEPropetyType.h in Headers */,
-				114DE8C81CD098A3004BE152 /* CommonUtil.h in Headers */,
-				11ED3F291CC61E7E00561E33 /* PublicText.h in Headers */,
 				114DE8BD1CD0926C004BE152 /* PrefixHeader.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114DE8CC1CD0BB2B004BE152 /* testcocoa.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114DE8CD1CD0BB2B004BE152 /* testcocoa.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
