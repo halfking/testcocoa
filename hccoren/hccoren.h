@@ -18,13 +18,13 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 
 #ifndef hccoren_h_1
 #define hccoren__h_1
-#import <HCBase.h>
+#import <hccoren/HCBase.h>
 //#import <hccoren/database.h>
 //#import <hccoren/cmd.h>
 
 #import <base.h>
 //#import <hccoren/images.h>
-#import <CommonUtil.h>
+#import <hccoren/CommonUtil.h>
 //#import <hccoren/CommonUtil(Date).h>
 //#import <hccoren/NSArray+CC.h>
 //#import <hccoren/NSData+CC.h>
@@ -36,7 +36,7 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 //#import <hccoren/OpenUDID.h>
 //#import <hccoren/HttpServerManager.h>
 //#import <hccoren/HWindowStack.h>
-#import <PublicMControls.h>
+#import <hcconre/PublicMControls.h>
 //#import <hccoren/CMDOP.h>
 //
 //#import <hccoren/HCCallbackResult.h>
