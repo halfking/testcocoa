@@ -18,12 +18,12 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 
 #ifndef hccoren_h
 #define hccoren__h
-#import <hccoren/HCBase.h>
+#import <hccoren/Base/HCBase.h>
 //#import <hccoren/database.h>
 //#import <hccoren/cmd.h>
 #import <hccoren/base.h>
 //#import <hccoren/images.h>
-//#import <hccoren/CommonUtil.h>
+#import <hccoren/Base/CommonUtil.h>
 //#import <hccoren/CommonUtil(Date).h>
 //#import <hccoren/NSArray+CC.h>
 //#import <hccoren/NSData+CC.h>
@@ -35,7 +35,7 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 //#import <hccoren/OpenUDID.h>
 //#import <hccoren/HttpServerManager.h>
 //#import <hccoren/HWindowStack.h>
-#import <hccoren/PublicMControls.h>
+#import <hccoren/Base/PublicMControls.h>
 //#import <hccoren/CMDOP.h>
 //
 //#import <hccoren/HCCallbackResult.h>
@@ -72,12 +72,12 @@ FOUNDATION_EXPORT const unsigned char hccorenVersionString[];
 //#import <hccoren/UIView+Genie.h>
 //#import <hccoren/UIView+LoadFromNib.h>
 //#import <hccoren/HWWeakTimer.h>
-#import <hccoren/HCCacheItem.h>
+//#import <hccoren/HCCacheItem.h>
 //#import <hccoren/FileDataCacheHelper.h>
 
 //#import <hccoren/WebSocket.h>
 //#import <hccoren/CMDSender.h>
-#import <hccoren/trackrecord.h>
+//#import <hccoren/trackrecord.h>
 
 
 //not must,just for warnings
